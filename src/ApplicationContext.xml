@@ -2,5 +2,6 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
     "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-	<bean id="sample" class="spring.Sample" />
+	<bean id="sample1" class ="spring.SampleImpl1" />
+	<bean id="sample2" class ="spring.SampleImpl2" />
 </beans>

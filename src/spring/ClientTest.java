@@ -13,7 +13,7 @@ public class ClientTest {
 		BeanFactory beanFactory = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
 		// 从容器中获取Sample对象
-		Sample sample = (Sample) beanFactory.getBean("sample");
+		Sample sample = (Sample) beanFactory.getBean("sample2");
 
 		// 调用Sample对象的方法
 		int result = sample.compute(3, 4);
